@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.animate__animated.animate__jackInTheBox {
+    --animate-duration: 2s;
+    --animate-delay: 0.6Ss;
+    --animate-repeat: 2;
+}
+
+
+
+@media screen and (max-width: 1680px) {
+
+    /* Basic */
+
+    body,
+    input,
+    textarea,
+    select {
+        font-size: 14pt;
+        line-height: 1.75em;
+    }
+
+    /* Carousel */
+
+    .carousel {
+        padding: 1.5em 0 1.5em 0;
+    }
+
+    .carousel .reel {
+        padding: 0 1.5em 0 1.5em;
+    }
+
+    .carousel article {
+        width: 18em;
+        margin: 0 1.25em 0 0;
+    }
+
+}
+
+.carousel {
+    overflow-x: auto;
+}
+
+/* Header */
+
+body.homepage.is-preload #header:after {
+    opacity: 0;
+}
+
+.carousel .reel {
+    white-space: nowrap;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 2em 0 2em;
+}
+
+header {
+    background-image: url(lock5.png);
+    background-size: cover;
+    background-position: -6px;
+    left: 0em;
+
+}
+
+.logo {
+    position: absolute;
+    /* left: 4px;
+    top: 2px;
+    width: 2rem; */
+
+
+}
+
+.shift {
+    right: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.header-content {
+    width: 100%;
+    justify-content: center;
+    margin-left: -40px;
+}
+
+.padding-15p {
+    padding: 5%;
+}
+
+.map-image {
+    height: 300px;
+}
+
+.contact-card {
+    padding: 20px;
+    box-shadow: 1px 2px 7px 1px rgba(0,0,0,.1);
+    margin-left: 50px;
+}
+
+.contact-line {
+    border-bottom: 1px solid hsla(0,0%,87.8%,.98);
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Softous Solutions pvt. ltd.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cyber.js">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <nav class="bg-gradient-to-r from-blue-950 via-blue-800 to-gray-900 shadow-xl">
+    <div class="flex px-4">
+      <a href="index.html" class="flex   py-2 ">
+        <img src="logo.png" alt="Logo" class="w-10 h-12 ">
+      </a>
+      <div class="hidden md:flex px-96 space-x-2 header-content">
+        <a href="" class="font-semibold py-4 px-2 text-white ">|</a>
+        <a href="index.html" class="py-4 scroll-smooth px-2  text-white hover:text-green-500  font-semibold  ">Home</a>
+        <a href="#services"
+          class="py-4 px-2 scroll-smooth text-white font-semibold hover:text-green-500 transition duration-300">Services</a>
+        <a href="#about"
+          class="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">About</a>
+        <a href="#contact"
+          class="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Contact Us</a>
+        <a href="" class="font-semibold py-4 px-2 text-white ">|</a>
+      </div>
+
+      <div class="md:hidden flex items-center">
+        <button class="outline-none mobile-menu-button">
+          <svg class=" w-10 h-10 text-amber-200 hover:text-green-200 " x-show="!showMenu" fill="none"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu">
+      <ul class="">
+        <li class="active"><a href="index.html"
+            class="block text-sm px-2 py-4 text-white active:bg-sky-600 hover:bg-sky-600 font-semibold">Home</a></li>
+        <li><a href="#services"
+            class="block text-sm px-2 py-4 text-white hover:bg-sky-600 transition duration-300">Services</a></li>
+        <li><a href="#about"
+            class="block text-sm px-2 py-4 text-white hover:bg-sky-600 transition duration-300">About</a></li>
+        <li><a href="#contact"
+            class="block text-sm px-2 py-4 text-white hover:bg-sky-600 transition duration-300">Contact Us</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+
+
+    <div class="relative  z-30 text-center  text-white font-bold text-6xl bg-opacity-50 rounded-xl">
+      Softous Solutions Private Limited <br>
+      <div class="relative z-30  px-36 py-24 text-warning-300 text-4xl bg-opacity-50 font-semibold rounded-xl">
+        Infomation Security Services
+        <br><br> 
+        <span class="text-xl padding-15p"> Forensic Services, Malware Detection, Security Audit, Mobile Forensics,
+          Vulnerability Management, Penetration Testing, Password Recovery,Risk Assessment, DDOS Assessment, Data
+          Security etc.</span>
+      </div>
+
+    </div>
+  </header>
+
+  <div id="services"
+    class=" animate-pulse text-center text-5xl font-serif font-semibold animate__animated animate__jackInTheBox">
+    Services</div>
+  <div class="w-2/3 text-center text-3xl font-sans my-4 font-light mx-auto py-6">We offer Penetration testing services
+    for web application, mobile application, thick client application, and network. Apart from that, we also offer
+    Secure code review, secure configiration review services.</div>
+
+  </div>
+
+
+  <section class="pb-20">
+    <div class="flex">
+      <div class="w-2/12 flex items-center">
+        <div class="w-full text-right">
+          <button onclick="prev()" class="p-3 rounded-full bg-white border  shadow-lg mr-5">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11 17l-5-5m0 0l5-5m-5 5h12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="sliderContainer" class="w-10/12 overflow-hidden">
+        <ul id="slider" class="flex w-full">
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="web.jpg" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">Web penetrating testing</h2>
+              <p class="mt-2 text-gray-500">
+                It is the practice of simulating attacks on a system in an attempt to gain access to sensitive data,
+                with the purpose of determining whether a system is secure.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Web_testing"><button
+                  class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold hover:bg-green-800">Read
+                  More</button></a>
+            </div>
+          </li>
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="mobile .jpg" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">Mobile penetrating testing.</h2>
+              <p class="mt-2 text-gray-500">
+                a test to analyze the security perimeters within a mobile environment to gain insights into the source
+                code's vulnerabilities.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Mobile_application_testing"> <button
+                  class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold hover:bg-green-800">Read
+                  More</button></a>
+            </div>
+          </li>
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="pic03.jpg" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">Thick client penetration testing</h2>
+              <p class="mt-2 text-gray-500">
+                Thick Client App Pen Tests are designed to detect and verify security vulnerabilities that are present
+                in a thick client application
+              </p>
+              <a href="https://payatu.com/blog/thick-client-penetration-testing/"> <button
+                  class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold hover:bg-green-800">Read
+                  More</button></a>
+            </div>
+          </li>
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="pic04.jpg" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">Network Penetration Testing</h2>
+              <p class="mt-2 text-gray-500">
+                It involves simulating cyberattacks against your own systems to help identify any vulnerabilities that
+                could be potentially exploited.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Mobile_application_testing"> <button
+                  class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold hover:bg-green-800">Read
+                  More</button></a>
+            </div>
+          </li>
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="pic05.jpg" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">Cloud Security Testing</h2>
+              <p class="mt-2 text-gray-500">
+                Cloud Security Testing is designed to assess the strengths and weaknesses of a cloud system to improve
+                its overall security posture.
+                <a href="https://en.wikipedia.org/wiki/Cloud_testing"><button
+                    class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold hover:bg-green-800">Read
+                    More</button></a>
+            </div>
+          </li>
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="api.png" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">API Testing</h2>
+              <p class="mt-2 text-gray-500">
+                a type of software testing that analyzes an application program interface (API) to verify that it
+                fulfills its expected functionality, security, performance and reliability
+              </p>
+              <button class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold">Read
+                More</button>
+            </div>
+          </li>
+
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="pic07.jpg" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">Secure Code Review</h2>
+              <p class="mt-2 text-gray-500">
+                a type of software testing that analyzes an application program interface (API) to verify that it
+                fulfills its expected functionality, security, performance and reliability
+              </p>
+              <button class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold">Read
+                More</button>
+            </div>
+          </li>
+
+
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="pic08.jpg" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">Secure Configuration Review</h2>
+              <p class="mt-2 text-gray-500">
+                a type of software testing that analyzes an application program interface (API) to verify that it
+                fulfills its expected functionality, security, performance and reliability
+              </p>
+              <button class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold">Read
+                More</button>
+            </div>
+          </li>
+
+
+          <li class="p-5">
+            <div class="border rounded-lg p-5 h-full">
+              <img class="h-50 w-full object-cover rounded-md" src="pic09.jpg" alt="">
+              <h2 class="mt-2 text-2xl font-bold text-gray-700">Firewall ruleset Review</h2>
+              <p class="mt-2 text-gray-500">
+                a type of software testing that analyzes an application program interface (API) to verify that it
+                fulfills its expected functionality, security, performance and reliability
+              </p>
+              <button class="mt-4 px-6 py-3 rounded-md bg-green-600 text-white font-bold">Read
+                More</button>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      <div class="w-2/12 flex items-center">
+        <div class="w-full">
+          <button onclick="next()" class="p-3 rounded-full bg-white border border-gray-100 shadow-lg ml-5">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   
+  <!-- About us  -->
+  <div  id="about" class="bg-blue-100 border-blue-50 border-2 py-16">
+
+    <div class="text-5xl font-bold opacity-80 text text-center py-7 px-28 text-left text-black bg-blue-100 ">About us</div>
+    <div class=" bg-blue-100  opacity-100 py-8 text-center">
+      <p class="mx-20 text-xl font-light py-6 px-32 bg-blue-100 text-black"><span
+          class="text-2xl  font-normal ">Softous Solutions Private Limited</span> is a <span class="font-medium">Cyber
+          Security Company</span> , helping to secure the cyber space since <span class="italic font-mono">2019</span>
+        . We have secured more than 100+ <span class="text-blue-900"> Web application</span> , <span
+          class="text-blue-900">Mobile application </span> and <span class="text-blue-900">Thick Client
+          applications</span> . We have worked with the clients with various secotors including Banking, Financial.
+        Educationa and E-commerce.
+      </p>
+    </div>
+  </div>
+
+  <!-- contact us -->
+  <section class="flex flex-col border-blue-50 border-2 gap-10 py-20">
+    <div id="contact" class="text-5xl font-bold opacity-80 text py-7 text-center mx-28 text-black">
+      Get in touch </div>
+      <div class="flex px-40 justify-center">
+        <img src="./map.png" class="map-image" alt="Address Map"/>
+
+        <div class="text-black opacity-100 contact-card">
+          <h3 class="font-light mx-20 text-4xl p-5">Contact Information</h3>
+          <a href="mailto:info@softous.com">
+            <p class="contact-line p-5 font-light"> <span class="text-black font-serif"> Email ID:</span>
+              info@softous.com</p>
+          </a>
+          <p class="p-5 contact-line font-light"><span class="text-black text-center font-serif"> Address:</span>
+            P-3096,Sec-56 DEVINDER VIHAR Gurgaon HR 122001 IN</p>
+        </div>
+      </div>
+      </section>
+   
+
+
+<p class="text-base py-5 text-center text-white bg-gradient-to-r from-black via-blue-800 to-black opacity-100">
+  Copyright @2023 Softous Solutions pvt. ltd. All Rights Reserved.</p>
+
+  <!-- carousel ends -->
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+
+    
+    let sliderContainer = document.getElementById('sliderContainer');
+    let slider = document.getElementById('slider');
+    let cards = slider.getElementsByTagName('li');
+
+    let elementsToShow = 3;
+    if (document.body.clientWidth < 1000) {
+      elementsToShow = 1;
+    } else if (document.body.clientWidth < 1500) {
+      elementsToShow = 2;
+    }
+
+
+    let sliderContainerWidth = sliderContainer.clientWidth;
+
+    let cardWidth = sliderContainerWidth / elementsToShow;
+
+    slider.style.width = cards.length * cardWidth + 'px';
+    slider.style.transition = 'margin';
+    slider.style.transitionDuration = '1s';
+
+    for (let index = 0; index < cards.length; index++) {
+      const element = cards[index];
+      element.style.width = cardWidth + 'px';
+    }
+
+    function prev() {
+      console.log('sliderML', slider.style.marginLeft.slice(0, -2), cardWidth * (cards.length - elementsToShow))
+
+      if (+slider.style.marginLeft.slice(0, -2) > -cardWidth * (cards.length - elementsToShow)) {
+        slider.style.marginLeft = ((+slider.style.marginLeft.slice(0, -2)) - cardWidth) + 'px';
+      }
+    }
+
+    function next() {
+      console.log('sliderML', Math.round(+slider.style.marginLeft.slice(0, -2), 0))
+      if (Math.round(+slider.style.marginLeft.slice(0, -2), 0) < 0) {
+        slider.style.marginLeft = ((+slider.style.marginLeft.slice(0, -2)) + cardWidth) + 'px';
+      }
+    }
+
+    function autoPlay() {
+      prev()
+
+      if (+slider.style.marginLeft.slice(0, -2) === -cardWidth * (cards.length - elementsToShow)) {
+        slider.style.marginLeft = "0px";
+      }
+
+      setTimeout(() => {
+        autoPlay();
+      }, 3000);
+    }
+
+    setTimeout(() => {
+      autoPlay();
+    }, 3000);
+    </script>
+
+
+</body>
+
+</html>
